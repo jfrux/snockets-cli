@@ -1,0 +1,17 @@
+{
+  "description": "A command-line interface for Snockets.",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "flatiron": "0.2.8"
+  },
+  "devDependencies": {
+    
+  },
+  "bin": {
+      "snockets": "./bin/snockets"
+  },
+  "name": "snockets-cli",
+  "author": "Joshua F. Rountree",
+  "homepage": "http://github.com/joshuairl/"
+}
