@@ -46,7 +46,7 @@ commands.watch = (sourceFile,buildFile) ->
         
         concatThem(sourceFile,buildFile)
         
-        for jsFile in jsList
-            do (jsFile) ->
-                watch.add(jsFile).onChange (file,prev,curr,action) ->
+        # for jsFile in jsList
+        #     do (jsFile) ->
+        #         watch.add(jsFile).onChange (file,prev,curr,action) ->
                     #concatThem(sourceFile,buildFile)
